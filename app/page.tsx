@@ -9,7 +9,22 @@ export default function HomePage() {
       {/* Header */}
       <header className="border-b">
         <div className="container mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold">Jie Jack Fan</h1>
+          <div className="flex justify-between items-center">
+            <div className="flex items-center gap-3">
+              <h1 className="text-2xl font-bold">Jie Jack Fan</h1>
+            </div>
+            <nav className="flex gap-6">
+              <Link href="/" className="text-foreground hover:text-muted-foreground transition-colors font-medium">
+                Home
+              </Link>
+              <Link
+                href="/photography"
+                className="text-muted-foreground hover:text-foreground transition-colors font-medium"
+              >
+                Photography
+              </Link>
+            </nav>
+          </div>
         </div>
       </header>
 
@@ -67,22 +82,24 @@ export default function HomePage() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>Senior Software Engineer</CardTitle>
-                    <CardDescription className="text-base">Tech Company Inc.</CardDescription>
+                    <CardTitle>Software Engineer II</CardTitle>
+                    <CardDescription className="text-base">VMware Inc.</CardDescription>
                   </div>
-                  <Badge variant="secondary">2022 - Present</Badge>
+                  <Badge variant="secondary">2022.6 - Present</Badge>
                 </div>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-3">
-                  Led development of scalable web applications serving millions of users. Collaborated with
+                  Led development of scalable web applications serving enterprises users. Collaborated with
                   cross-functional teams to deliver high-quality software solutions.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">React</Badge>
+                  <Badge variant="outline">Angular</Badge>
                   <Badge variant="outline">Node.js</Badge>
                   <Badge variant="outline">TypeScript</Badge>
                   <Badge variant="outline">AWS</Badge>
+                  <Badge variant="outline">MySQL</Badge>
+                  <Badge variant="outline">Redis</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -91,10 +108,10 @@ export default function HomePage() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>Software Engineer</CardTitle>
-                    <CardDescription className="text-base">Startup Solutions</CardDescription>
+                    <CardTitle>Software Engineer Intern</CardTitle>
+                    <CardDescription className="text-base">Glimmer 411</CardDescription>
                   </div>
-                  <Badge variant="secondary">2020 - 2022</Badge>
+                  <Badge variant="secondary">2021.5 - 2021.8</Badge>
                 </div>
               </CardHeader>
               <CardContent>
@@ -107,30 +124,6 @@ export default function HomePage() {
                   <Badge variant="outline">Python</Badge>
                   <Badge variant="outline">PostgreSQL</Badge>
                   <Badge variant="outline">Docker</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="flex justify-between items-start">
-                  <div>
-                    <CardTitle>Junior Developer</CardTitle>
-                    <CardDescription className="text-base">Digital Agency</CardDescription>
-                  </div>
-                  <Badge variant="secondary">2019 - 2020</Badge>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-3">
-                  Built responsive websites and web applications for various clients. Gained experience in modern web
-                  development practices and agile methodologies.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">HTML/CSS</Badge>
-                  <Badge variant="outline">JavaScript</Badge>
-                  <Badge variant="outline">PHP</Badge>
-                  <Badge variant="outline">MySQL</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -248,6 +241,63 @@ export default function HomePage() {
             </Card>
           </div>
         </section>
+
+        {/* Education Section */}
+        <section className="mb-12">
+          <h3 className="text-2xl font-bold mb-6">Education</h3>
+          <div className="space-y-6">
+            <Card>
+              <CardHeader>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <CardTitle>University of Virginia</CardTitle>
+                    <CardDescription className="text-base">Master of Engineering in Computer Science</CardDescription>
+                  </div>
+                  <Badge variant="secondary">2020.8 - 2022.5</Badge>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-3">
+                  Led development of scalable web applications serving enterprises users. Collaborated with
+                  cross-functional teams to deliver high-quality software solutions.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="outline">Angular</Badge>
+                  <Badge variant="outline">Node.js</Badge>
+                  <Badge variant="outline">TypeScript</Badge>
+                  <Badge variant="outline">AWS</Badge>
+                  <Badge variant="outline">MySQL</Badge>
+                  <Badge variant="outline">Redis</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <CardTitle>Northeastern University</CardTitle>
+                    <CardDescription className="text-base">Bachelor of Science in Computer Engineering</CardDescription>
+                  </div>
+                  <Badge variant="secondary">2020 - 2022</Badge>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-3">
+                  Developed and maintained full-stack applications. Implemented new features and optimized existing
+                  systems for better performance.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="outline">JavaScript</Badge>
+                  <Badge variant="outline">Python</Badge>
+                  <Badge variant="outline">PostgreSQL</Badge>
+                  <Badge variant="outline">Docker</Badge>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+        
       </main>
 
       {/* Footer */}
