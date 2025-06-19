@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { MapPin, Mail, Github, Linkedin, ExternalLink } from "lucide-react"
@@ -10,7 +9,7 @@ export default function HomePage() {
       {/* Header */}
       <header className="border-b">
         <div className="container mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold">Jie Fan</h1>
+          <h1 className="text-2xl font-bold">Jie Jack Fan</h1>
         </div>
       </header>
 
@@ -19,14 +18,13 @@ export default function HomePage() {
         {/* Hero Section */}
         <section className="mb-12">
           <div className="flex flex-col md:flex-row items-start gap-8">
-            <Avatar className="w-32 h-32 mx-auto md:mx-0">
-              <AvatarImage src="/placeholder.svg?height=128&width=128" alt="Jie Fan" />
-              <AvatarFallback className="text-2xl">JF</AvatarFallback>
-            </Avatar>
+            <div className="w-24 h-24 md:w-32 md:h-32 mx-auto md:mx-0 rounded-full overflow-hidden border-2 border-border">
+              <img src="/profile.jpg" alt="Jie Fan" className="w-full h-full object-cover" />
+            </div>
             <div className="flex-1 text-center md:text-left">
-              <h2 className="text-3xl font-bold mb-4">Hello, I&apos;m Jie Fan</h2>
+              <h2 className="text-3xl font-bold mb-4">Hello, I'm Jie Jack Fan</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                I&apos;m a passionate software developer with expertise in building modern web applications. I love creating
+                I'm a passionate software developer with expertise in building modern web applications. I love creating
                 efficient, scalable solutions and am always eager to learn new technologies and tackle challenging
                 problems.
               </p>
@@ -36,21 +34,21 @@ export default function HomePage() {
                   <span>San Francisco, CA</span>
                 </div>
                 <Link
-                  href="mailto:jie.fan@example.com"
+                  href="mailto:jackfan1998@gmail.com"
                   className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  <span>jie.fan@example.com</span>
+                  <span>jackfan1998@gmail.com</span>
                 </Link>
                 <Link
-                  href="https://github.com"
+                  href="https://github.com/jiejackfan"
                   className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Github className="w-4 h-4" />
                   <span>GitHub</span>
                 </Link>
                 <Link
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/jiejackfan/"
                   className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Linkedin className="w-4 h-4" />
