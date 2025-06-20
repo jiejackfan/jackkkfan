@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "jackkkfan",
   description: "My personal website",
+  openGraph: {
+    title: 'jackkkfan.com',
+    description: 'My personal website',
+    images: ['/favicon.ico'], // Optional: custom preview image
+  },
 };
 
 export default function RootLayout({
