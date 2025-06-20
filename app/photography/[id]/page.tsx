@@ -73,13 +73,13 @@ const photos = [
 ]
 
 interface PhotoPageProps {
-  params: {
+  params: Promise<{
     id: string
-  };
+  }>
 }
 
-export default function PhotoPage({ params }: PhotoPageProps) {
-  const { id } = params;
+export default async function PhotoPage({ params }: PhotoPageProps) {
+  const { id } = await params;
   const photoId = Number.parseInt(id)
   const photo = photos.find((p) => p.id === photoId)
 
