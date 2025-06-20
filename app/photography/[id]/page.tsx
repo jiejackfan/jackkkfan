@@ -9,77 +9,78 @@ const photos = [
     src: "/photos/what.jpg",
     title: "Golden Hour Mountains",
     description:
-      "Captured during a hiking trip in the Sierra Nevada mountains. The golden hour light created this magical atmosphere as the sun set behind the peaks. This shot required patience, waiting for the perfect moment when the light hit the mountain ridges just right. I hiked for about 3 hours to reach this viewpoint, carrying my camera gear through rocky terrain. The effort was completely worth it when I saw this incredible scene unfold before me. The interplay of light and shadow across the mountain faces creates a natural drama that no amount of post-processing could replicate.",
+      "Captured by my good friend HN, showcases the prime colors of Kodak 200 film with my Olumpus u2 camera.",
     location: "San Francisco, California",
     camera: "Olympus u2",
     lens: "35mm f/2.8",
     settings: "Kodak Gold 200 ISO",
   },
-  {
-    id: 2,
-    src: "/photos/street-1.jpg",
-    title: "City Life",
-    description:
-      "A candid moment captured on the busy streets of downtown San Francisco. I love how street photography allows you to freeze fleeting moments that tell a story about urban life and human connection. This particular shot caught my eye because of the way the morning light was streaming through the buildings, creating these beautiful geometric shadows on the sidewalk. The subject was completely unaware of being photographed, which I think adds to the authenticity of the moment. Street photography teaches you to be patient and observant, always ready for those split-second opportunities that reveal the poetry in everyday life.",
-    location: "Downtown San Francisco, California",
-    camera: "Fujifilm X-T4",
-    lens: "35mm f/1.4",
-    settings: "f/2.8, 1/250s, ISO 400",
-  },
-  {
-    id: 3,
-    src: "/photos/nature-1.jpg",
-    title: "Morning Dew",
-    description:
-      "Early morning macro photography in my local park. The dew drops on this spider web caught the first rays of sunlight, creating natural prisms. Macro photography has taught me to appreciate the small details we often overlook in our daily lives. I woke up at 5 AM to catch the perfect lighting conditions - that magical hour just after sunrise when the dew is still fresh and the light is soft and golden. Getting this shot required lying on the wet grass for about 20 minutes, adjusting my position millimeter by millimeter to get the perfect angle where the light would refract through the water droplets just right.",
-    location: "Golden Gate Park, San Francisco",
-    camera: "Canon EOS R5",
-    lens: "100mm f/2.8 Macro",
-    settings: "f/5.6, 1/60s, ISO 200",
-  },
-  {
-    id: 4,
-    src: "/photos/portrait-1.jpg",
-    title: "Natural Portrait",
-    description:
-      "A portrait session with natural lighting during the blue hour. I prefer working with available light rather than artificial lighting - it creates more authentic and emotional connections in portraits. This session was particularly special because we were working with a complete stranger who responded to my call for portrait volunteers on social media. There's something magical about that trust between photographer and subject, especially when you're both creating art together. The blue hour provides this incredibly flattering, even light that makes everyone look their best while maintaining a natural, unforced quality.",
-    location: "Crissy Field, San Francisco",
-    camera: "Sony A7 III",
-    lens: "85mm f/1.8",
-    settings: "f/2.2, 1/80s, ISO 800",
-  },
-  {
-    id: 5,
-    src: "/photos/architecture-1.jpg",
-    title: "Modern Lines",
-    description:
-      "The geometric patterns of modern architecture fascinate me. This shot was taken at the SFMOMA, focusing on how light and shadow interact with the building's angular design to create abstract compositions. Architecture photography is like solving a puzzle - you're looking for that perfect angle where all the lines, shapes, and lighting come together to create something that's both documentary and artistic. I spent about an hour walking around this building, studying how the light changed throughout the day and how it affected the mood and feeling of the structure.",
-    location: "SFMOMA, San Francisco",
-    camera: "Canon EOS R5",
-    lens: "16-35mm f/2.8",
-    settings: "f/11, 1/200s, ISO 100",
-  },
-  {
-    id: 6,
-    src: "/photos/sunset-1.jpg",
-    title: "Ocean Sunset",
-    description:
-      "Taken at Half Moon Bay during a particularly spectacular sunset. The waves were crashing against the rocks, and I used a longer exposure to capture the smooth water movement while keeping the dramatic sky sharp. Seascape photography requires a lot of patience and often getting soaked by unexpected waves! I had to time the exposure perfectly to capture the motion of the water while avoiding camera shake from the wind. The salt spray was constantly hitting my lens, so I had to clean it between every few shots. But moments like these - when nature puts on such an incredible display - make all the challenges worthwhile.",
-    location: "Half Moon Bay, California",
-    camera: "Sony A7 III",
-    lens: "24-105mm f/4",
-    settings: "f/8, 2s, ISO 100",
-  },
+  // {
+  //   id: 2,
+  //   src: "/photos/street-1.jpg",
+  //   title: "City Life",
+  //   description:
+  //     "A candid moment captured on the busy streets of downtown San Francisco. I love how street photography allows you to freeze fleeting moments that tell a story about urban life and human connection. This particular shot caught my eye because of the way the morning light was streaming through the buildings, creating these beautiful geometric shadows on the sidewalk. The subject was completely unaware of being photographed, which I think adds to the authenticity of the moment. Street photography teaches you to be patient and observant, always ready for those split-second opportunities that reveal the poetry in everyday life.",
+  //   location: "Downtown San Francisco, California",
+  //   camera: "Fujifilm X-T4",
+  //   lens: "35mm f/1.4",
+  //   settings: "f/2.8, 1/250s, ISO 400",
+  // },
+  // {
+  //   id: 3,
+  //   src: "/photos/nature-1.jpg",
+  //   title: "Morning Dew",
+  //   description:
+  //     "Early morning macro photography in my local park. The dew drops on this spider web caught the first rays of sunlight, creating natural prisms. Macro photography has taught me to appreciate the small details we often overlook in our daily lives. I woke up at 5 AM to catch the perfect lighting conditions - that magical hour just after sunrise when the dew is still fresh and the light is soft and golden. Getting this shot required lying on the wet grass for about 20 minutes, adjusting my position millimeter by millimeter to get the perfect angle where the light would refract through the water droplets just right.",
+  //   location: "Golden Gate Park, San Francisco",
+  //   camera: "Canon EOS R5",
+  //   lens: "100mm f/2.8 Macro",
+  //   settings: "f/5.6, 1/60s, ISO 200",
+  // },
+  // {
+  //   id: 4,
+  //   src: "/photos/portrait-1.jpg",
+  //   title: "Natural Portrait",
+  //   description:
+  //     "A portrait session with natural lighting during the blue hour. I prefer working with available light rather than artificial lighting - it creates more authentic and emotional connections in portraits. This session was particularly special because we were working with a complete stranger who responded to my call for portrait volunteers on social media. There's something magical about that trust between photographer and subject, especially when you're both creating art together. The blue hour provides this incredibly flattering, even light that makes everyone look their best while maintaining a natural, unforced quality.",
+  //   location: "Crissy Field, San Francisco",
+  //   camera: "Sony A7 III",
+  //   lens: "85mm f/1.8",
+  //   settings: "f/2.2, 1/80s, ISO 800",
+  // },
+  // {
+  //   id: 5,
+  //   src: "/photos/architecture-1.jpg",
+  //   title: "Modern Lines",
+  //   description:
+  //     "The geometric patterns of modern architecture fascinate me. This shot was taken at the SFMOMA, focusing on how light and shadow interact with the building's angular design to create abstract compositions. Architecture photography is like solving a puzzle - you're looking for that perfect angle where all the lines, shapes, and lighting come together to create something that's both documentary and artistic. I spent about an hour walking around this building, studying how the light changed throughout the day and how it affected the mood and feeling of the structure.",
+  //   location: "SFMOMA, San Francisco",
+  //   camera: "Canon EOS R5",
+  //   lens: "16-35mm f/2.8",
+  //   settings: "f/11, 1/200s, ISO 100",
+  // },
+  // {
+  //   id: 6,
+  //   src: "/photos/sunset-1.jpg",
+  //   title: "Ocean Sunset",
+  //   description:
+  //     "Taken at Half Moon Bay during a particularly spectacular sunset. The waves were crashing against the rocks, and I used a longer exposure to capture the smooth water movement while keeping the dramatic sky sharp. Seascape photography requires a lot of patience and often getting soaked by unexpected waves! I had to time the exposure perfectly to capture the motion of the water while avoiding camera shake from the wind. The salt spray was constantly hitting my lens, so I had to clean it between every few shots. But moments like these - when nature puts on such an incredible display - make all the challenges worthwhile.",
+  //   location: "Half Moon Bay, California",
+  //   camera: "Sony A7 III",
+  //   lens: "24-105mm f/4",
+  //   settings: "f/8, 2s, ISO 100",
+  // },
 ]
 
 interface PhotoPageProps {
   params: {
     id: string
-  }
+  };
 }
 
 export default function PhotoPage({ params }: PhotoPageProps) {
-  const photoId = Number.parseInt(params.id)
+  const { id } = params;
+  const photoId = Number.parseInt(id)
   const photo = photos.find((p) => p.id === photoId)
 
   if (!photo) {
