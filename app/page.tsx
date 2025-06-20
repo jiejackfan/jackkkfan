@@ -90,8 +90,9 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-3">
-                  Led development of scalable web applications serving enterprises users. Collaborated with
-                  cross-functional teams to deliver high-quality software solutions.
+                  At VMware Inc., I engineered scalable backend services and APIs using Node.js, SQL, AWS, and Angular to power
+                  real-time license and order management systems, optimize data performance, and automate customer notifications, 
+                  enhancing reliability and responsiveness for 1000+ enterprise users.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline">Angular</Badge>
@@ -116,8 +117,9 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-3">
-                  Developed and maintained full-stack applications. Implemented new features and optimized existing
-                  systems for better performance.
+                  At Glimmer411, I built scalable and secure backend services using Firebase, Cloud Functions, and Angular to streamline 
+                  user routine logging, automate data consistency, and enforce role-based access, supporting fast and reliable access for 
+                  over 100 users.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline">JavaScript</Badge>
@@ -138,31 +140,30 @@ export default function HomePage() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <CardTitle className="flex items-center gap-2">
-                    E-Commerce Platform
+                    Astronomy Picture of the Day
                     <Link href="#" className="text-muted-foreground hover:text-foreground">
                       <ExternalLink className="w-4 h-4" />
                     </Link>
                   </CardTitle>
                 </div>
                 <CardDescription>
-                  A full-stack e-commerce solution with modern UI and secure payment processing
+                  A full-stack social media website for space lovers
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Built a complete e-commerce platform with user authentication, product catalog, shopping cart, and
-                  payment integration. Features responsive design and admin dashboard.
+                  Built a complete social media platform with user authentication, posting, commenting.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">Next.js</Badge>
-                  <Badge variant="outline">Stripe</Badge>
-                  <Badge variant="outline">Prisma</Badge>
-                  <Badge variant="outline">Tailwind CSS</Badge>
+                  <Badge variant="outline">React</Badge>
+                  <Badge variant="outline">Java</Badge>
+                  <Badge variant="outline">Spring</Badge>
+                  <Badge variant="outline">HTML</Badge>
                 </div>
               </CardContent>
             </Card>
 
-            <Card>
+            {/* <Card>
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <CardTitle className="flex items-center gap-2">
@@ -186,9 +187,9 @@ export default function HomePage() {
                   <Badge variant="outline">MongoDB</Badge>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
 
-            <Card>
+            {/* <Card>
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <CardTitle className="flex items-center gap-2">
@@ -238,7 +239,7 @@ export default function HomePage() {
                   <Badge variant="outline">Netlify</Badge>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </section>
 
@@ -256,7 +257,7 @@ export default function HomePage() {
                   <Badge variant="secondary">2020.8 - 2022.5</Badge>
                 </div>
               </CardHeader>
-              <CardContent>
+              {/* <CardContent>
                 <p className="text-muted-foreground mb-3">
                   Led development of scalable web applications serving enterprises users. Collaborated with
                   cross-functional teams to deliver high-quality software solutions.
@@ -269,7 +270,7 @@ export default function HomePage() {
                   <Badge variant="outline">MySQL</Badge>
                   <Badge variant="outline">Redis</Badge>
                 </div>
-              </CardContent>
+              </CardContent> */}
             </Card>
 
             <Card>
@@ -279,10 +280,10 @@ export default function HomePage() {
                     <CardTitle>Northeastern University</CardTitle>
                     <CardDescription className="text-base">Bachelor of Science in Computer Engineering</CardDescription>
                   </div>
-                  <Badge variant="secondary">2020 - 2022</Badge>
+                  <Badge variant="secondary">2016.9 - 2020.6</Badge>
                 </div>
               </CardHeader>
-              <CardContent>
+              {/* <CardContent>
                 <p className="text-muted-foreground mb-3">
                   Developed and maintained full-stack applications. Implemented new features and optimized existing
                   systems for better performance.
@@ -293,7 +294,7 @@ export default function HomePage() {
                   <Badge variant="outline">PostgreSQL</Badge>
                   <Badge variant="outline">Docker</Badge>
                 </div>
-              </CardContent>
+              </CardContent> */}
             </Card>
           </div>
         </section>
