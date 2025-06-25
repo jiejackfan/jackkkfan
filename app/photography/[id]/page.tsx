@@ -7,7 +7,7 @@ const photos = [
   {
     id: 1,
     src: "/photos/what.jpg",
-    title: "Golden Hour Mountains",
+    title: "Portrait of Jie Fan",
     description:
       "Captured by my good friend HN, showcases the prime colors of Kodak 200 film with my Olumpus u2 camera.",
     location: "San Francisco, California",
@@ -98,7 +98,7 @@ export default async function PhotoPage({ params }: PhotoPageProps) {
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-3">
-              <h1 className="text-2xl font-bold">Jie Fan</h1>
+              <h1 className="text-2xl font-bold">Jie Jack Fan</h1>
             </div>
             <nav className="flex gap-6">
               <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
