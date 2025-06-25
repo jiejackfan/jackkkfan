@@ -141,7 +141,7 @@ export default function HomePage() {
                 <div className="flex justify-between items-start">
                   <CardTitle className="flex items-center gap-2">
                     Astronomy Picture of the Day
-                    <Link href="#" className="text-muted-foreground hover:text-foreground">
+                    <Link href="https://github.com/jiejackfan/AstronomyPictureOfTheDay" className="text-muted-foreground hover:text-foreground">
                       <ExternalLink className="w-4 h-4" />
                     </Link>
                   </CardTitle>
